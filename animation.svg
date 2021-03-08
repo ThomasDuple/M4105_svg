@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+
+<rect fill="#ddd" width="1080" height="1080"/> <!-- Background -->
+
+<g> <!-- track -->
+    <!-- left -->
+    <path fill="#aaa" d="M 0 0 h 130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h -130 Z"/>
+    
+    <!-- right -->
+    <path fill="#aaa" d="M 1080 0 h -130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h 130 Z"/>
+</g>
+
+<g> <!-- skier -->
+
+</g>
+
+</svg>
