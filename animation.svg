@@ -10,8 +10,22 @@
     <path fill="#aaa" d="M 1080 0 h -130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h 130 Z"/>
 </g>
 
-<g> <!-- skier -->
-
+<g transform="translate(512, 512)"> <!-- skier -->
+    <g transform="translate(0, -35)"> <!-- ski -->
+        <!-- left -->
+        <rect x="10" y="0" width="20" height="200" fill="blue" />
+        <!-- right -->
+        <rect x="130" y="0" width="20" height="200" fill="blue" />
+    </g>
+    <g> <!-- stick -->
+    
+    </g>
+    <g> <!-- character -->
+        <!-- body -->
+        <rect x="0" y="0" width="160" height="60" fill="red" />
+        <!-- head -->
+        <rect x="40" y="-10" width="80" height="80" fill="black" />
+    </g>
 </g>
 
 </svg>
