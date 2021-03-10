@@ -10,22 +10,24 @@
     <path fill="#aaa" d="M 1080 0 h -130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h 130 Z"/>
 </g>
 
-<g transform="translate(512, 512)"> <!-- skier -->
-    <g transform="translate(0, -35)"> <!-- ski -->
+<g transform="translate(30, 130)"> <!-- skier -->
+    <g transform="translate(0, -60)"> <!-- ski -->
         <!-- left -->
-        <rect x="10" y="0" width="20" height="200" fill="blue" />
+        <rect x="25" y="0" rx="10" ry="25" width="35" height="270" fill="blue" stroke="black" stroke-width="3"/>
         <!-- right -->
-        <rect x="130" y="0" width="20" height="200" fill="blue" />
+        <rect x="100" y="0" rx="10" ry="25" width="35" height="270" fill="blue" stroke="black" stroke-width="3"/>
     </g>
-    <g> <!-- stick -->
-    
+    <g transform="translate(0, -150)"> <!-- stick -->
+        <!-- left -->
+        <rect transform="rotate(-10, 20, 180)" x="15" y="30" width="10" height="150" fill="green" stroke="black" stroke-width="3"/>
+        <!-- right -->
+        <rect transform="rotate(10, 140, 180)" x="135" y="30" width="10" height="150" fill="green" stroke="black" stroke-width="3"/>
     </g>
     <g> <!-- character -->
         <!-- body -->
-        <rect x="0" y="0" width="160" height="60" fill="red" />
+        <rect x="0" y="0" width="160" height="60" rx="20" ry="10" fill="red" stroke="black" stroke-width="3"/>
         <!-- head -->
-        <rect x="40" y="-10" width="80" height="80" fill="black" />
+        <circle cx="80" cy="30" r="40" fill="green" stroke="black" stroke-width="3"/>
     </g>
 </g>
-
 </svg>
