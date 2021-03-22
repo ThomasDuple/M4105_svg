@@ -1,31 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080"
+    viewBox="0 0 1080 1080">
+    <style>
+        @import url(mystyles.css);
+    </style>
+    <rect fill="#ddd" width="1080" height="1080" /> <!-- Background -->
 
-<rect fill="#ddd" width="1080" height="1080"/> <!-- Background -->
-
-<g> <!-- track -->
-    <!-- left -->
-    <path fill="#aaa" d="M 0 0 h 130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h -130 Z"/>
-    
-    <!-- right -->
-    <path fill="#aaa" d="M 1080 0 h -130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h 130 Z"/>
-</g>
-
-<g transform="translate(512, 512)"> <!-- skier -->
-    <g transform="translate(0, -35)"> <!-- ski -->
+    <g>
+        <!-- track -->
         <!-- left -->
-        <rect x="10" y="0" width="20" height="200" fill="blue" />
+        <path fill="#aaa"
+            d="M 0 0 h 130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h -130 Z" />
+
         <!-- right -->
-        <rect x="130" y="0" width="20" height="200" fill="blue" />
+        <path fill="#aaa"
+            d="M 1080 0 h -130 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 c 0 0, -60 108, 0 216 c 0 0, 60 108, 0 216 h 130 Z" />
     </g>
-    <g> <!-- stick -->
-    
+
+    <g transform="translate(512, 512)">
+        <!-- skier -->
+        <g transform="translate(0, -35)">
+            <!-- ski -->
+            <!-- left -->
+            <rect x="10" y="0" width="20" height="200" fill="blue" />
+            <!-- right -->
+            <rect x="130" y="0" width="20" height="200" fill="blue" />
+        </g>
+        <g>
+            <!-- stick -->
+
+        </g>
+        <g>
+            <!-- character -->
+            <!-- body -->
+            <rect x="0" y="0" width="160" height="60" fill="red" />
+            <!-- head -->
+            <rect x="40" y="-10" width="80" height="80" fill="black" />
+        </g>
     </g>
-    <g> <!-- character -->
-        <!-- body -->
-        <rect x="0" y="0" width="160" height="60" fill="red" />
-        <!-- head -->
-        <rect x="40" y="-10" width="80" height="80" fill="black" />
+
+    <!--snowmobile rescuer-->
+
+    <g>
+
+        <!-- > left chain -->
+        <rect class="snowmobilechain" x="10" y="80" width="30" height="100" rx="2" />
+        <!-- > right chain -->
+        <rect class="snowmobilechain" x="105" y="80" width="30" height="100" rx="2" />
+        <!-- > Snowbilebody mainframe -->
+        <path class="snowmobilebody" stroke="black"
+            d="M25,20 H120 A5,5,0,0,1,125,25 v120 A60,70,0,0,1,20,145 V25  A5,5,0,0,1,25,20" />
+        <!-- > Snowbileseat  -->
+        <rect class="snowmobileseat" x="45" y="65" width="55" height="55" rx="2" />
+        <!-- > back trunk  -->
+        <rect class="snowmobiletrunk" x="60" y="10" width="25" height="10" rx="2" />
+        <!-- > front glass  -->
+        <path class="snowmobileglass" stroke="black" d="M45,130 A20,10,0,0,0,100,130 " />
     </g>
-</g>
 
 </svg>
