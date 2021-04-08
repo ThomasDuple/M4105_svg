@@ -130,10 +130,133 @@
         <rect transform="translate(59 46)  rotate(-45) " width="2" height="13" />
         <rect transform="translate(85 45)  rotate(45) " width="2" height="13" />
         <rect transform="translate(76 46)  rotate(-45) " width="2" height="13" />
+    </g>
+    <rect fill="#ddd" width="1080" height="1080" /> <!-- Background -->
+
+    <rect fill="#ddd" width="1080" height="1080" /> <!-- Background -->
+    <g>
+        <!-- track -->
+        <!-- left -->
+        <path fill="#aaa"
+            d="M 0 0 h 130 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 h -130 Z">
+            <animate id="leftp" repeatCount="indefinite" attributeName="d" dur="28s" values="
+    M 0 0 h 130 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 h -130 Z;
+    M 0 0 h 130 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 h -130 Z;
+    M 0 0 h 130 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 h -130 Z;
+    " />
+        </path>
+        <!-- right -->
+        <path id="rightp" fill="#aaa"
+            d=" M 1080 0 h -130 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 h 130 Z">
+            <animate id="animation-to-check" repeatCount="indefinite" attributeName="d" dur="30s" values="
+    M 1080 0 h -130 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 h 130 Z;
+    M 1080 0 h -130 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 h 130 Z;
+     M 1080 0 h -130 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 q 60 108, 0 216 q -60 108, 0 216 h 130 Z;
+    " />
+        </path>
+    </g>
+    <g>
+        <ellipse cx="80" cy="650" rx="60" ry="60" fill="green" stroke="black" stroke-width="2">
+            <animate attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s" repeatCount="indefinite" />
+            <animate attributeName="cx" values="40;60;40" dur="5s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="80" cy="650" rx="40" ry="40" fill="green" stroke="black" stroke-width="2">
+            <animate attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s" repeatCount="indefinite" />
+            <animate attributeName="cx" values="40;60;40" dur="5s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="80" cy="650" rx="10" ry="10" fill="green" stroke="black" stroke-width="2">
+            <animate attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s" repeatCount="indefinite" />
+            <animate attributeName="cx" values="40;60;40" dur="5s" repeatCount="indefinite" />
+        </ellipse>
+    </g>
+    <g>
+        <ellipse cx="2000" cy="2000" rx="60" ry="60" fill="green" stroke="black" stroke-width="2">
+            <animate begin="3;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="3;" attributeName="cx" values="40;60;40" dur="11s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="2000" cy="2000" rx="40" ry="40" fill="green" stroke="black" stroke-width="2">
+            <animate begin="3;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="3;" attributeName="cx" values="40;60;40" dur="11s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="2000" cy="2000" rx="10" ry="10" fill="green" stroke="black" stroke-width="2">
+            <animate begin="3;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="3;" attributeName="cx" values="40;60;40" dur="11s" repeatCount="indefinite" />
+        </ellipse>
+    </g>
+    <g>
+        <ellipse cx="2000" cy="2000" rx="60" ry="60" fill="green" stroke="black" stroke-width="2">
+            <animate begin="1;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="1;" attributeName="cx" values="1020;1040;1020" dur="5s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="2000" cy="2000" rx="40" ry="40" fill="green" stroke="black" stroke-width="2">
+            <animate begin="1;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="1;" attributeName="cx" values="1020;1040;1020" dur="5s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="2000" cy="2000" rx="10" ry="10" fill="green" stroke="black" stroke-width="2">
+            <animate begin="1;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="1;" attributeName="cx" values="1020;1040;1020" dur="5s" repeatCount="indefinite" />
+        </ellipse>
+    </g>
+    <g>
+        <ellipse cx="1000" cy="2000" rx="60" ry="60" fill="green" stroke="black" stroke-width="2">
+            <animate begin="3;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="3;" attributeName="cx" values="1000;1010;1000" dur="12s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="1000" cy="2000" rx="40" ry="40" fill="green" stroke="black" stroke-width="2">
+            <animate begin="3;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="3;" attributeName="cx" values="1000;1010;1000" dur="12s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="1000" cy="2000" rx="10" ry="10" fill="green" stroke="black" stroke-width="2">
+            <animate begin="3;" attributeType="XML" attributeName="cy" from="1080" to="0" dur="5s"
+                repeatCount="indefinite" />
+            <animate begin="3;" attributeName="cx" values="1000;1010;1000" dur="12s" repeatCount="indefinite" />
+        </ellipse>
+    </g>
+    <g transform="translate(300,50) scale(0.5)">
 
 
-
-
+        <animateMotion path="M 100 50 H 400 Z" dur="5s" repeatCount="2" />
+        <animateMotion begin="10s" path="M 200 50 V 600 Z" dur="5s" repeatCount="1" />
+        <!-- skier -->
+        <g transform="translate(0, -60)">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="-15;-3;15;3;-3;-15"
+                dur="5s" repeatCount="2" />
+            <!-- ski -->
+            <!-- left -->
+            <rect x="25" y="-50" rx="10" ry="25" width="35" height="270" fill="blue" stroke="black" stroke-width="3" />
+            <!-- right -->
+            <rect x="100" y="-50" rx="10" ry="25" width="35" height="270" fill="blue" stroke="black" stroke-width="3" />
+        </g>
+        <g transform="translate(0, -150)">
+            <!-- stick -->
+            <!-- left -->
+            <rect transform="rotate(-10, 20, 180)" x="15" y="30" width="10" height="150" fill="green" stroke="black"
+                stroke-width="3" />
+            <!-- right -->
+            <rect transform="rotate(10, 140, 180)" x="135" y="30" width="10" height="150" fill="green" stroke="black"
+                stroke-width="3" />
+        </g>
+        <g>
+            <!-- character -->
+            <!-- body -->
+            <rect x="0" y="0" width="160" height="60" rx="20" ry="10" fill="red" stroke="black" stroke-width="3" />
+            <!-- head -->
+            <circle cx="80" cy="30" r="40" fill="green" stroke="black" stroke-width="3" />
+        </g>
+    </g>
+    <g>
+        <text x="250" y="150" font-family="Verdana" font-size="55" fill-opacity="100%">
+            Bonjour tout le monde!
+            <animate attributeType="XML" attributeName="fill-opacity" values="100%;75%;50%;25%;0%" dur="5s" repeatCount="1"  />
+        </text>
 
     </g>
 </svg>
